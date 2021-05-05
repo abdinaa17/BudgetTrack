@@ -23,7 +23,7 @@ const Balance = () => {
     return (
        <div className="balance">
            <h2>Your Balance</h2>
-           <h3 className='total__balance'>{balance}</h3>
+           <h3 className='total__balance'>$({balance})</h3>
            <div className='balance__container'>
             <div className="balance__plus">
               <h3>Income</h3>

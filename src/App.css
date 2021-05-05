@@ -31,6 +31,11 @@ body {
   font-style: italic;
 }
 
+.header p span {
+  color: var(--secondary-clr);
+  font-weight: bolder;
+}
+
 .balance {
   display: flex;
   justify-content: center;
