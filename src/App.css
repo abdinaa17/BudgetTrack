@@ -72,6 +72,7 @@ body {
   justify-content: space-around;
   width: 1200px;
   margin: 2rem 0;
+  max-width: 100%;
 }
 
 .form {
@@ -141,3 +142,11 @@ body {
   color: var(--secondary-clr);
   font-size: 1.2rem;
 }
+
+/* @media screen and (max-widht: 768px) {
+  .form__container,
+  .history__container {
+    flex-direction: column;
+    max-width: 100%;
+  }
+} */
