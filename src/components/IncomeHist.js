@@ -4,7 +4,7 @@ import {useGlobalContext} from '../context/AppContext'
 const IncomeHist = () => {
     const {incomeTransactions, deleteItem} = useGlobalContext()
     return (
-        <div>
+        <div className='income-wrapper'>
             <h3>Income History</h3>
             <ul>
 

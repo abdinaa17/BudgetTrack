@@ -145,12 +145,11 @@ body {
 
 @media screen and (max-width: 500px) {
   .history__container {
-    justify-content: space-between;
+    flex-direction: column;
   }
-  .expense__item {
-    margin-left: 0.5rem;
-  }
-  .income__item {
-    margin-right: 0.5rem;
+
+  .income-wrapper,
+  .expense-wrapper {
+    margin: 2rem auto;
   }
 }

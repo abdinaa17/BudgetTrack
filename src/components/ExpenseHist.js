@@ -4,7 +4,7 @@ import {useGlobalContext} from '../context/AppContext'
 const ExpenseHist = () => {
     const {expenseTransactions, deleteItem} = useGlobalContext()
     return (
-        <div>
+        <div className='expense-wrapper'>
             <h3>Expense History</h3>
             <ul>
                  {expenseTransactions.map((transaction) => {
