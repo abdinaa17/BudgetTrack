@@ -54,7 +54,7 @@ useEffect(() => {
 
 }
 
-
+// A custom hook to import my context easier.
 export const useGlobalContext = () => {
     return useContext(AppContext)
 } 
